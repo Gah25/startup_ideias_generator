@@ -1,0 +1,26 @@
+<!-- ideas_generator/templates/ideas_generator/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Ideias de Startups</title>
+</head>
+
+<body>
+    <h1>Gerador de Ideias de Startups</h1>
+    <form id="generateIdeaForm" action="/ideas_generator/" method="post">
+        {% csrf_token %}
+        <label for="user_input">Digite sua ideia:</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Gerar Ideia</button>
+    </form>
+    <div id="generatedIdea"></div>
+
+    <script>
+        
+    </script>
+</body>
+
+</html>
