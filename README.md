@@ -33,9 +33,10 @@ Ative o ambiente virtual:
 
         ```bash
         openai.api_key = "Sua_Chave_OpenAI_Aqui"
+        ```bash
         
-        Substitua "Sua_Chave_OpenAI_Aqui" pela chave da API que você obteve.
-        Salve o arquivo.
+Substitua "Sua_Chave_OpenAI_Aqui" pela chave da API que você obteve.
+Salve o arquivo.
     
 Executando o Projeto:
     python manage.py runserver
