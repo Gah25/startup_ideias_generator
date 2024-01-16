@@ -13,20 +13,22 @@ Este é um projeto Django que utiliza a API da OpenAI para gerar ideias inovador
     python -m venv venv
 
 2. Ative o ambiente virtual:
-No Windows:
+    No Windows:
     ```bash
     .\venv\Scripts\Activate
 
 Ative o ambiente virtual:
-No Linux/Mac:
+    No Linux/Mac:
+    ```bash
     source venv/bin/activate
 
 3. Instale as dependências:
+    ```bash
     pip install -r requirements.txt
 
 4.Configure a Chave da API OpenAI:
     Obtenha uma chave da API da OpenAI em https://platform.openai.com.
-    Abra o arquivo 'ideas_generator/views.py' no seu editor de código.
+    Abra o arquivo ```bash 'ideas_generator/views.py' no seu editor de código.
     Procure pela seguinte linha de código: 
         openai.api_key = "Sua_Chave_OpenAI_Aqui"
         Substitua "Sua_Chave_OpenAI_Aqui" pela chave da API que você obteve.
