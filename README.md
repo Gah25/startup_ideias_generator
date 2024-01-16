@@ -31,7 +31,6 @@ Ative o ambiente virtual:
     Abra o arquivo ideas_generator/views.py no seu editor de código.
     Procure pela seguinte linha de código:
 
-    ```bash
     openai.api_key = "Sua_Chave_OpenAI_Aqui"
         
 
