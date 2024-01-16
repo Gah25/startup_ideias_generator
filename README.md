@@ -9,6 +9,7 @@ Este é um projeto Django que utiliza a API da OpenAI para gerar ideias inovador
    git clone https://github.com/seu-usuario/startup-ideias-generator.git
 
 1. Crie um ambiente virtual:
+    ```bash
     python -m venv venv
 
 2. Ative o ambiente virtual:
