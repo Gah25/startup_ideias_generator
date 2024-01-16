@@ -28,7 +28,7 @@ Ative o ambiente virtual:
 
 4.Configure a Chave da API OpenAI:
     Obtenha uma chave da API da OpenAI em https://platform.openai.com.
-    Abra o arquivo ```bash 'ideas_generator/views.py' no seu editor de código.
+    Abra o arquivo nano ideas_generator/views.py no seu editor de código.
     Procure pela seguinte linha de código: 
         openai.api_key = "Sua_Chave_OpenAI_Aqui"
         Substitua "Sua_Chave_OpenAI_Aqui" pela chave da API que você obteve.
