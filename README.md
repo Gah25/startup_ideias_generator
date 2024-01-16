@@ -13,7 +13,7 @@ Este é um projeto Django que utiliza a API da OpenAI para gerar ideias inovador
     python -m venv venv
 
 2. Ative o ambiente virtual:
-    No Windows:
+No Windows:
     ```bash
     .\venv\Scripts\Activate
 
